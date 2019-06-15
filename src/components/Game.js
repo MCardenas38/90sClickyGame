@@ -56,8 +56,8 @@ class Game extends React.Component{
 
     render(){
         return(
-            <>
-            <Nav 
+            <div>
+                            <Nav 
                 message= {this.state.message}
                 current= {this.state.current_score}
                 high= {this.state.high_score}
@@ -76,7 +76,8 @@ class Game extends React.Component{
                     })}
                 </div>
             </div>
-            </>
+            </div>
+
         );
     }
 
