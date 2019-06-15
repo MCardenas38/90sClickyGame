@@ -57,11 +57,11 @@ class Game extends React.Component{
     render(){
         return(
             <div>
-                            <Nav 
-                message= {this.state.message}
-                current= {this.state.current_score}
-                high= {this.state.high_score}
-            />
+                <Nav 
+                    message= {this.state.message}
+                    current= {this.state.current_score}
+                    high= {this.state.high_score}
+                />
             <Jumbo />
             <div className= "container">
                 <div className="row justify-content-center">
